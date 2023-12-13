@@ -1,0 +1,29 @@
+.counter_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.counter_box > div {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  border-radius: 50%;
+  background-color: black;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: large;
+}
+button:hover {
+  color: black;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
