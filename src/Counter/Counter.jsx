@@ -12,7 +12,9 @@ const Counter = () => {
   };
   return (
     <div className="counter_box">
-      <h1>Count {count}</h1>
+      <h1>
+        <i>COUNTER</i> <br /> {count}
+      </h1>
       <div>
         <button onClick={handleReduceClick}>-</button>
         <button onClick={handleAddClick}>+</button>

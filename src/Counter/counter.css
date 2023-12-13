@@ -1,10 +1,15 @@
 .counter_box {
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 100vh;
+  border: 1px solid black;
+  padding: 1rem;
+  width: 50%;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 .counter_box > div {
   display: flex;

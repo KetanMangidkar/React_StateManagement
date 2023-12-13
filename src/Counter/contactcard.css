@@ -1,0 +1,19 @@
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-bottom: 1.75rem;
+  border-bottom: 1px solid grey;
+  border-bottom-left-radius: 0.25rem;
+}
+.container > div {
+  width: 30%;
+  text-align: left;
+}
+.click_container:hover {
+  cursor: pointer;
+}
